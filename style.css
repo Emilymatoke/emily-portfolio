@@ -12,3 +12,21 @@ body  {
     padding:0 20px ;
 
 }
+
+header  {
+    padding:30px 20px ;
+    background: color 1a 1a 1a; ;
+    text-align:center ;
+    border-bottom:2px solid silver ;
+}
+
+header h1  {
+    font-size: 2.5rem;;
+    color: silver;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ccc; ;
+    margin:10px 0 ;
+}

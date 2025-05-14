@@ -52,3 +52,29 @@ nav a  {
     text-decoration:none ;
     color: silver;
 }
+
+nav a:hover {
+    color: white;
+}
+
+main  {
+    margin:40px auto ;
+    padding: 20px;
+    background-color: #111;
+    max-width:100px ;
+    border-radius:10px ;
+    box-shadow: 0 0 10px #333;
+}
+
+section  {
+    margin-bottom: 40px;
+}
+
+h2  {
+    color: #fff;
+    border-left: 5px solid silver;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+

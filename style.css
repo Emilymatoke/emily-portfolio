@@ -78,3 +78,66 @@ h2  {
     font-size: 1.8rem;
 }
 
+.about-container  {
+    gap:20px ;
+    flex-wrap:wrap ;
+    display: flex;
+    align-items:center ;
+}
+
+.about-img  {
+    max-width:300px ;
+    border-radius:10px ;
+    border:2px solid silver ;
+}
+
+.Skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+.Skills-group {
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 10px;
+}
+.Skills-group h3 {
+    color: silver;
+    margin-bottom: 10px;
+}
+
+a {
+    color: silver;
+}
+a:hover {
+    color: white;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-top: 2px solid silver;
+    color: #ccc;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-pic {
+        margin-bottom: 15px;
+    }
+}
+
+
